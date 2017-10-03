@@ -33,6 +33,8 @@ public class MainActivity extends AppCompatActivity
 
         lista = new ArrayList<Datos>();
 
+        lista.add(new Datos(1,"Jaguar", "Animal",R.drawable.jaguar));
+        lista.add(new Datos(1,"Jaguar", "Animal en peligro de extinsion",R.drawable.jaguar));
         lista.add(new Datos(1,"Jaguar", "Animal en peligro de extinsion",R.drawable.jaguar));
         lista.add(new Datos(1,"Jaguar", "Animal en peligro de extinsion",R.drawable.jaguar));
         lista.add(new Datos(1,"Jaguar", "Animal en peligro de extinsion",R.drawable.jaguar));
