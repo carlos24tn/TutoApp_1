@@ -20,7 +20,8 @@ public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     ListView listaDatos;
-    ArrayList<Datos> lista;
+    //ArrayList<Datos> lista;
+    ArrayList<CourseData> listaCursos;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +32,27 @@ public class MainActivity extends AppCompatActivity
 
         listaDatos = (ListView)findViewById(R.id.lstvwPrincipal);
 
-        lista = new ArrayList<Datos>();
+        listaCursos = new ArrayList<CourseData>();
+
+        listaCursos.add(new CourseData(1, "CALCULO EN 1 VARIBLE", 10, "ffd"));
+        listaCursos.add(new CourseData(1, "CALCULO EN 1 VARIBLE", 10, "ffd"));
+        listaCursos.add(new CourseData(1, "CALCULO EN 1 VARIBLE", 10, "ffd"));
+        listaCursos.add(new CourseData(1, "CALCULO EN 1 VARIBLE", 10, "ffd"));
+        listaCursos.add(new CourseData(1, "CALCULO EN 1 VARIBLE", 103, "ffd"));
+        listaCursos.add(new CourseData(1, "CALCULO EN 1 VARIBLE", 10, "ffd"));
+        listaCursos.add(new CourseData(1, "CALCULO EN 1 VARIBLE", 10, "ffd"));
+        listaCursos.add(new CourseData(1, "CALCULO EN 1 VARIBLE", 10, "ffd"));
+        listaCursos.add(new CourseData(1, "CALCULO EN 1 VARIBLE", 103, "ffd"));
+        listaCursos.add(new CourseData(1, "CALCULO EN 1 VARIBLE", 10, "ffd"));
+        listaCursos.add(new CourseData(1, "ECUACIONES DIRERENCIALES ORDINARIAS ECUACIONES DIRERENCIALES ORDINARIAS ECUACIONES DIRERENCIALES ORDINARIAS", 103, "ffd"));
+        listaCursos.add(new CourseData(1, "CALCULO EN 1 VARIBLE", 10, "ffd"));
+        listaCursos.add(new CourseData(1, "CALCULO EN VARIAS VARIABLES", 10, "ffd"));
+        listaCursos.add(new CourseData(1, "ECUACIONES DIFERENCIALES", 10, "ffd"));
+
+        CourseAdapter miAdaptador = new CourseAdapter(getApplicationContext(), listaCursos);
+        listaDatos.setAdapter(miAdaptador);
+
+        /*lista = new ArrayList<Datos>();
 
         lista.add(new Datos(1,"Jaguar", "Animal",R.drawable.jaguar));
         lista.add(new Datos(1,"Jaguar", "Animal en peligro de extinsion",R.drawable.jaguar));
@@ -44,7 +65,9 @@ public class MainActivity extends AppCompatActivity
 
 
         Adaptador miAdaptador = new Adaptador(getApplicationContext(), lista);
-        listaDatos.setAdapter(miAdaptador);
+        listaDatos.setAdapter(miAdaptador);*/
+
+
 
 
 

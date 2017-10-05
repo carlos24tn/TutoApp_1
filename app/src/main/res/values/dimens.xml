@@ -5,4 +5,7 @@
     <dimen name="nav_header_vertical_spacing">16dp</dimen>
     <dimen name="nav_header_height">160dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
+    <dimen name="item_list_view_course_tamanio">20sp</dimen>
+    <dimen name="item_list_view_course_padding_up_down">28px</dimen>
+    <dimen name="item_list_view_course_padding_left_right">10px</dimen>
 </resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtItemListViewCourse_NombreCurso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/item_list_view_course_padding_up_down"
+            android:paddingLeft="@dimen/item_list_view_course_padding_left_right"
+            android:paddingRight="@dimen/item_list_view_course_padding_left_right"
+            android:paddingTop="@dimen/item_list_view_course_padding_up_down"
+            android:textColor="@color/color_item_list_view_course"
+            android:textSize="@dimen/item_list_view_course_tamanio" />
+
+        <TextView
+            android:id="@+id/txtItemListViewCourse_CantidadCurso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="7"
+            android:paddingBottom="@dimen/item_list_view_course_padding_up_down"
+            android:paddingTop="@dimen/item_list_view_course_padding_up_down"
+            android:textAlignment="center"
+            android:textColor="@color/color_item_list_view_course"
+            android:textSize="@dimen/item_list_view_course_tamanio" />
+
+    </LinearLayout>
+</LinearLayout>
