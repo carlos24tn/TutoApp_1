@@ -34,16 +34,16 @@ public class MainActivity extends AppCompatActivity
 
         listaCursos = new ArrayList<CourseData>();
 
-        listaCursos.add(new CourseData(1, "CALCULO EN 1 VARIBLE", 10, "ffd"));
-        listaCursos.add(new CourseData(1, "CALCULO EN 1 VARIBLE", 10, "ffd"));
-        listaCursos.add(new CourseData(1, "CALCULO EN 1 VARIBLE", 10, "ffd"));
-        listaCursos.add(new CourseData(1, "CALCULO EN 1 VARIBLE", 10, "ffd"));
-        listaCursos.add(new CourseData(1, "CALCULO EN 1 VARIBLE", 103, "ffd"));
-        listaCursos.add(new CourseData(1, "CALCULO EN 1 VARIBLE", 10, "ffd"));
-        listaCursos.add(new CourseData(1, "CALCULO EN 1 VARIBLE", 10, "ffd"));
-        listaCursos.add(new CourseData(1, "CALCULO EN 1 VARIBLE", 10, "ffd"));
-        listaCursos.add(new CourseData(1, "CALCULO EN 1 VARIBLE", 103, "ffd"));
-        listaCursos.add(new CourseData(1, "CALCULO EN 1 VARIBLE", 10, "ffd"));
+        listaCursos.add(new CourseData(1, "CALCULO EN 1 VARIABLE", 10, "ffd"));
+        listaCursos.add(new CourseData(1, "CALCULO EN 1 VARIABLE", 10, "ffd"));
+        listaCursos.add(new CourseData(1, "CALCULO EN 1 VARIABLE", 10, "ffd"));
+        listaCursos.add(new CourseData(1, "CALCULO EN 1 VARIABLE", 10, "ffd"));
+        listaCursos.add(new CourseData(1, "CALCULO EN 1 VARIABLE", 103, "ffd"));
+        listaCursos.add(new CourseData(1, "CALCULO EN 1 VARIABLE", 10, "ffd"));
+        listaCursos.add(new CourseData(1, "CALCULO EN 1 VARIABLE", 10, "ffd"));
+        listaCursos.add(new CourseData(1, "CALCULO EN 1 VARIABLE", 10, "ffd"));
+        listaCursos.add(new CourseData(1, "CALCULO EN 1 VARIABLE", 103, "ffd"));
+        listaCursos.add(new CourseData(1, "CALCULO EN 1 VARIABLE", 10, "ffd"));
         listaCursos.add(new CourseData(1, "ECUACIONES DIRERENCIALES ORDINARIAS ECUACIONES DIRERENCIALES ORDINARIAS ECUACIONES DIRERENCIALES ORDINARIAS", 103, "ffd"));
         listaCursos.add(new CourseData(1, "CALCULO EN 1 VARIBLE", 10, "ffd"));
         listaCursos.add(new CourseData(1, "CALCULO EN VARIAS VARIABLES", 10, "ffd"));
