@@ -1,10 +1,12 @@
 package pe.edu.unsa.dutic.tutoapp;
 
+import java.io.Serializable;
+
 /**
  * Created by usuario on 02/10/2017.
  */
 
-public class Datos {
+public class Datos implements Serializable{
     private int Id;
     private String Titulo;
     private String Descripcion;

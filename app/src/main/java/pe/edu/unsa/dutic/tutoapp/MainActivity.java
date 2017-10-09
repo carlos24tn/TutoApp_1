@@ -1,5 +1,6 @@
 package pe.edu.unsa.dutic.tutoapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -12,8 +13,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity
@@ -51,6 +54,16 @@ public class MainActivity extends AppCompatActivity
 
         CourseAdapter miAdaptador = new CourseAdapter(getApplicationContext(), listaCursos);
         listaDatos.setAdapter(miAdaptador);
+
+        listaDatos.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                CourseData obj = (CourseData)parent.getItemAtPosition(position);
+                Intent paso = new Intent(getApplicationContext(), DetalleActivity.class);
+                paso.putExtra("Objeto", (Serializable)obj);
+                startActivity(paso);
+            }
+        });
 
         /*lista = new ArrayList<Datos>();
 
