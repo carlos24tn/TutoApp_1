@@ -6,6 +6,11 @@
     <dimen name="nav_header_height">160dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="item_list_view_course_tamanio">20sp</dimen>
+    <dimen name="item_list_view_tutors_nombre_tema">20sp</dimen>
+    <dimen name="item_list_view_tutors_nombre_docente">18sp</dimen>
+    <dimen name="item_list_view_tutors_tipo_tutor">12sp</dimen>
+    <dimen name="item_list_view_tutors_escuela_tutor">12sp</dimen>
+    <dimen name="item_list_view_tutors_horario_tutor">12sp</dimen>
     <dimen name="item_list_view_course_padding_up_down">28px</dimen>
     <dimen name="item_list_view_course_padding_left_right">10px</dimen>
 </resources>
