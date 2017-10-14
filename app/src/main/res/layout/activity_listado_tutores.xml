@@ -5,10 +5,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="pe.edu.unsa.dutic.tutoapp.ListadoTutoresActivity">
-    <ListView
-        android:layout_width="344dp"
+
+    <LinearLayout
+        android:layout_width="368dp"
         android:layout_height="495dp"
-        tools:layout_editor_absoluteY="8dp"
-        tools:layout_editor_absoluteX="8dp"></ListView>
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/txtActivityListadoTutores_Titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Titulo del curso" />
+
+        <ListView
+            android:id="@+id/lstvwTutores"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp"></ListView>
+    </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

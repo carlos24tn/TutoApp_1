@@ -59,7 +59,8 @@ public class MainActivity extends AppCompatActivity/*
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 CourseData obj = (CourseData)parent.getItemAtPosition(position);
-                Intent paso = new Intent(getApplicationContext(), DetalleActivity.class);
+                //Intent paso = new Intent(getApplicationContext(), DetalleActivity.class);
+                Intent paso = new Intent(getApplicationContext(), ListadoTutoresActivity.class);
                 paso.putExtra("Objeto", (Serializable)obj);
                 startActivity(paso);
             }

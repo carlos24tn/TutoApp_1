@@ -5,6 +5,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.TextView;
+
+import org.w3c.dom.Text;
 
 import java.util.List;
 
@@ -44,9 +47,21 @@ public class TutorAdapter extends BaseAdapter{
         LayoutInflater inflate = LayoutInflater.from(contexto);
         vista = inflate.inflate(R.layout.item_list_view_tutors, null);
 
+        TextView nombreTema = (TextView)vista.findViewById(R.id.txtItemListViewTutors_NombreTema);
+        TextView nombreDocente = (TextView)vista.findViewById(R.id.txtItemListViewTutors_NombreDocente);
+        TextView tipo = (TextView)vista.findViewById(R.id.txtItemListViewTutors_TipoTutor);
+        TextView escuela = (TextView)vista.findViewById(R.id.txtItemListViewTutors_EscuelaTutor);
+        TextView horario = (TextView)vista.findViewById(R.id.txtItemListViewTutors_HorarioTutor);
+
+        nombreTema.setText(listaTutor.get(position).getTema().toString());
+        nombreDocente.setText(listaTutor.get(position).getNombre().toString()+listaTutor.get(position).getApellido());
+        tipo.setText("Docente");
+        escuela.setText("Escuela");
+        horario.setText(listaTutor.get(position).getFechaInicio().toString());
+
         //Falta que se va a mostrar
 
 
-        return null;
+        return vista;
     }
 }

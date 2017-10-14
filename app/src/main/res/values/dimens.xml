@@ -13,4 +13,6 @@
     <dimen name="item_list_view_tutors_horario_tutor">12sp</dimen>
     <dimen name="item_list_view_course_padding_up_down">28px</dimen>
     <dimen name="item_list_view_course_padding_left_right">10px</dimen>
+    <dimen name="item_list_view_tutors_padding_left">25px</dimen>
+    <dimen name="item_list_view_tutors_padding_top_tipo">13px</dimen>
 </resources>

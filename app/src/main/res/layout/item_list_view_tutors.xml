@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -26,6 +27,7 @@
                 android:layout_weight="1"
                 android:paddingLeft="@dimen/item_list_view_course_padding_left_right"
                 android:text="TEMA: Tema del Curso"
+                android:textColor="@color/color_item_list_view_course"
                 android:textSize="@dimen/item_list_view_tutors_nombre_tema" />
 
             <TextView
@@ -33,11 +35,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/item_list_view_course_padding_up_down"
-                android:layout_marginLeft="@dimen/item_list_view_course_padding_left_right"
+                android:layout_marginLeft="@dimen/item_list_view_tutors_padding_left"
                 android:layout_marginRight="@dimen/item_list_view_course_padding_left_right"
                 android:layout_weight="1"
                 android:paddingLeft="@dimen/item_list_view_course_padding_left_right"
                 android:text="TUTOR: Nombre del Tutor"
+                android:textColor="@color/color_item_list_view_course"
                 android:textSize="@dimen/item_list_view_tutors_nombre_docente" />
 
             <LinearLayout
@@ -57,15 +60,21 @@
                         android:id="@+id/txtItemListViewTutors_TipoTutor"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/item_list_view_course_padding_left_right"
+                        android:layout_marginTop="@dimen/item_list_view_tutors_padding_top_tipo"
                         android:layout_weight="1"
-                        android:text="TextView" />
+                        android:text="Docente / Estudiante"
+                        android:textColor="@color/color_item_list_view_course" />
 
                     <TextView
                         android:id="@+id/txtItemListViewTutors_EscuelaTutor"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/item_list_view_course_padding_left_right"
+                        android:layout_marginTop="@dimen/item_list_view_tutors_padding_top_tipo"
                         android:layout_weight="1"
-                        android:text="TextView" />
+                        android:text="Escuela Profesional"
+                        android:textColor="@color/color_item_list_view_course" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -78,8 +87,11 @@
                         android:id="@+id/txtItemListViewTutors_HorarioTutor"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/item_list_view_course_padding_left_right"
+                        android:layout_marginTop="@dimen/item_list_view_tutors_padding_top_tipo"
                         android:layout_weight="1"
-                        android:text="TextView" />
+                        android:text="Horario:\nDia: dd -mm-yy"
+                        android:textColor="@color/color_item_list_view_course" />
                 </LinearLayout>
 
             </LinearLayout>
