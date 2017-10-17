@@ -23,6 +23,7 @@
             android:id="@+id/lstvwTutores"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:dividerHeight="10px"
             tools:layout_editor_absoluteX="8dp"
             tools:layout_editor_absoluteY="8dp"></ListView>
     </LinearLayout>

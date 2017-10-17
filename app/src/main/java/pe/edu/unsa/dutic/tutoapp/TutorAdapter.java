@@ -56,7 +56,7 @@ public class TutorAdapter extends BaseAdapter{
         nombreTema.setText(listaTutor.get(position).getTema().toString());
         nombreDocente.setText(listaTutor.get(position).getNombre().toString()+listaTutor.get(position).getApellido());
         tipo.setText("Docente");
-        escuela.setText("Escuela");
+        escuela.setText("Escuela Profesional de Ingeniería en Industrias Alimentarias");
         horario.setText(listaTutor.get(position).getFechaInicio().toString());
 
         //Falta que se va a mostrar

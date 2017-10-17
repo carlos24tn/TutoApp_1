@@ -20,27 +20,26 @@
                 android:id="@+id/txtItemListViewTutors_NombreTema"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/item_list_view_course_padding_left_right"
-                android:layout_marginRight="@dimen/item_list_view_course_padding_left_right"
-                android:layout_marginTop="@dimen/item_list_view_course_padding_up_down"
+                android:layout_marginLeft="@dimen/item_list_view_tutors_margin_left_nombre_tema"
+                android:layout_marginRight="@dimen/item_list_view_tutors_margin_right_nombre_tema"
+                android:layout_marginTop="@dimen/item_list_view_tutors_margin_top_nombre_tema"
                 android:layout_weight="1"
-                android:paddingLeft="@dimen/item_list_view_course_padding_left_right"
+                android:paddingTop="@dimen/item_list_view_tutors_padding_top_nombre_tema"
                 android:text="TEMA: Tema del Curso"
                 android:textColor="@color/color_item_list_view_course"
-                android:textSize="@dimen/item_list_view_tutors_nombre_tema" />
+                android:textSize="@dimen/item_list_view_tutors_nombre_tema_texto" />
 
             <TextView
                 android:id="@+id/txtItemListViewTutors_NombreDocente"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/item_list_view_tutors_padding_left"
-                android:layout_marginRight="@dimen/item_list_view_course_padding_left_right"
-                android:layout_marginTop="@dimen/item_list_view_course_padding_up_down"
+                android:layout_marginLeft="@dimen/item_list_view_tutors_margin_left_nombre_docente"
+                android:layout_marginRight="@dimen/item_list_view_tutors_margin_right_nombre_docente"
+                android:layout_marginTop="@dimen/item_list_view_tutors_margin_top_nombre_docente"
                 android:layout_weight="1"
-                android:paddingLeft="@dimen/item_list_view_course_padding_left_right"
                 android:text="TUTOR: Nombre del Tutor"
                 android:textColor="@color/color_item_list_view_course"
-                android:textSize="@dimen/item_list_view_tutors_nombre_docente" />
+                android:textSize="@dimen/item_list_view_tutors_nombre_docente_texto" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -53,27 +52,36 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="3"
+                    android:gravity="center"
                     android:orientation="vertical">
 
                     <TextView
                         android:id="@+id/txtItemListViewTutors_TipoTutor"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="@dimen/item_list_view_course_padding_left_right"
-                        android:layout_marginTop="@dimen/item_list_view_tutors_padding_top_tipo"
+                        android:layout_marginBottom="@dimen/item_list_view_tutors_margin_down_tipo"
+                        android:layout_marginLeft="@dimen/item_list_view_tutors_margin_left_tipo"
+                        android:layout_marginRight="@dimen/item_list_view_tutors_margin_right_tipo"
+                        android:layout_marginTop="@dimen/item_list_view_tutors_margin_top_tipo"
                         android:layout_weight="1"
+                        android:paddingTop="0px"
                         android:text="Docente / Estudiante"
-                        android:textColor="@color/color_item_list_view_course" />
+                        android:textAlignment="center"
+                        android:textColor="@color/color_item_list_view_course"
+                        android:textSize="@dimen/item_list_view_tutors_tipo_tutor" />
 
                     <TextView
                         android:id="@+id/txtItemListViewTutors_EscuelaTutor"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="@dimen/item_list_view_course_padding_left_right"
+                        android:layout_marginLeft="@dimen/item_list_view_tutors_margin_left_escuela_tutor"
+                        android:layout_marginRight="@dimen/item_list_view_tutors_margin_right_escuela_tutor"
                         android:layout_marginTop="@dimen/item_list_view_tutors_padding_top_tipo"
                         android:layout_weight="1"
                         android:text="Escuela Profesional"
-                        android:textColor="@color/color_item_list_view_course" />
+                        android:textAlignment="center"
+                        android:textColor="@color/color_item_list_view_course"
+                        android:textSize="@dimen/item_list_view_tutors_escuela_tutor" />
                 </LinearLayout>
 
                 <LinearLayout
