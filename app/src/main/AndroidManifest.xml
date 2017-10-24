@@ -27,7 +27,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".DetalleActivity" />
-        <activity android:name=".ListadoTutoresActivity"></activity>
+        <activity android:name=".ListadoTutoresActivity"
+            android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>

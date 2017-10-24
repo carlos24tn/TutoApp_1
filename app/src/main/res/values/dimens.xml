@@ -11,34 +11,58 @@
     <dimen name="item_list_view_course_padding_left_right">10px</dimen>
 
     <!--            Item List View Tutors - Inicio               -->
-    <dimen name="item_list_view_tutors_margin_top_nombre_tema">10px</dimen>
-    <dimen name="item_list_view_tutors_margin_down_nombre_tema">10px</dimen>
+    <dimen name="item_list_view_tutors_margin_top_nombre_tema">5px</dimen>
+    <dimen name="item_list_view_tutors_margin_down_nombre_tema">2px</dimen>
     <dimen name="item_list_view_tutors_margin_left_nombre_tema">10px</dimen>
     <dimen name="item_list_view_tutors_margin_right_nombre_tema">10px</dimen>
-    <dimen name="item_list_view_tutors_padding_top_nombre_tema">10px</dimen>
     <dimen name="item_list_view_tutors_nombre_tema_texto">17sp</dimen>
+    <dimen name="item_list_view_tutors_padding_top_nombre_tema">0px</dimen>
+    <dimen name="item_list_view_tutors_padding_down_nombre_tema">0px</dimen>
+    <dimen name="item_list_view_tutors_padding_left_nombre_tema">0px</dimen>
+    <dimen name="item_list_view_tutors_padding_right_nombre_tema">0px</dimen>
 
-    <dimen name="item_list_view_tutors_margin_top_nombre_docente">6px</dimen>
-    <dimen name="item_list_view_tutors_margin_down_nombre_docente">6px</dimen>
+    <dimen name="item_list_view_tutors_margin_top_nombre_docente">3px</dimen>
+    <dimen name="item_list_view_tutors_margin_down_nombre_docente">2px</dimen>
     <dimen name="item_list_view_tutors_margin_left_nombre_docente">23px</dimen>
     <dimen name="item_list_view_tutors_margin_right_nombre_docente">10px</dimen>
     <dimen name="item_list_view_tutors_nombre_docente_texto">15sp</dimen>
+    <dimen name="item_list_view_tutors_padding_top_nombre_docente">3px</dimen>
+    <dimen name="item_list_view_tutors_padding_down_nombre_docente">3px</dimen>
+    <dimen name="item_list_view_tutors_padding_left_nombre_docente">3px</dimen>
+    <dimen name="item_list_view_tutors_padding_right_nombre_docente">3px</dimen>
 
-    <dimen name="item_list_view_tutors_margin_top_tipo">13px</dimen>
-    <dimen name="item_list_view_tutors_margin_down_tipo">13px</dimen>
+    <dimen name="item_list_view_tutors_margin_top_tipo">10px</dimen>
+    <dimen name="item_list_view_tutors_margin_down_tipo">10px</dimen>
     <dimen name="item_list_view_tutors_margin_left_tipo">5px</dimen>
     <dimen name="item_list_view_tutors_margin_right_tipo">5px</dimen>
     <dimen name="item_list_view_tutors_tipo_tutor">12sp</dimen>
+    <dimen name="item_list_view_tutors_padding_top_tipo">10px</dimen>
+    <dimen name="item_list_view_tutors_padding_down_tipo">10px</dimen>
+    <dimen name="item_list_view_tutors_padding_left_tipo">10px</dimen>
+    <dimen name="item_list_view_tutors_padding_right_tipo">10px</dimen>
 
-    <dimen name="item_list_view_tutors_margin_top_escuela_tutor">13px</dimen>
-    <dimen name="item_list_view_tutors_margin_down_escuela_tutor">13px</dimen>
+    <dimen name="item_list_view_tutors_margin_top_escuela_tutor">5px</dimen>
+    <dimen name="item_list_view_tutors_margin_down_escuela_tutor">10px</dimen>
     <dimen name="item_list_view_tutors_margin_right_escuela_tutor">5px</dimen>
-    <dimen name="item_list_view_tutors_margin_left_escuela_tutor">5px</dimen>
+    <dimen name="item_list_view_tutors_margin_left_escuela_tutor">8px</dimen>
     <dimen name="item_list_view_tutors_escuela_tutor">12sp</dimen>
+    <dimen name="item_list_view_tutors_padding_top_escuela_tutor">5px</dimen>
+    <dimen name="item_list_view_tutors_padding_down_escuela_tutor">5px</dimen>
+    <dimen name="item_list_view_tutors_padding_left_escuela_tutor">5px</dimen>
+    <dimen name="item_list_view_tutors_padding_right_escuela_tutor">5px</dimen>
 
+    <dimen name="item_list_view_tutors_margin_top_horario_tutor">10px</dimen>
+    <dimen name="item_list_view_tutors_margin_down_horario_tutor">10px</dimen>
+    <dimen name="item_list_view_tutors_margin_right_horario_tutor">8px</dimen>
+    <dimen name="item_list_view_tutors_margin_left_horario_tutor">5px</dimen>
     <dimen name="item_list_view_tutors_horario_tutor">12sp</dimen>
+    <dimen name="item_list_view_tutors_padding_top_horario_tutor">10px</dimen>
+    <dimen name="item_list_view_tutors_padding_down_horario_tutor">10px</dimen>
+    <dimen name="item_list_view_tutors_padding_left_horario_tutor">10px</dimen>
+    <dimen name="item_list_view_tutors_padding_right_horario_tutor">10px</dimen>
+
+
     <dimen name="item_list_view_tutors_padding_left">25px</dimen>
-    <dimen name="item_list_view_tutors_padding_top_tipo">13px</dimen>
     <!--            Item List View Tutors - Fin               -->
 
 
