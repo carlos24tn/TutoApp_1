@@ -54,10 +54,16 @@ public class TutorAdapter extends BaseAdapter{
         TextView horario = (TextView)vista.findViewById(R.id.txtItemListViewTutors_HorarioTutor);
 
         nombreTema.setText(listaTutor.get(position).getTema().toString());
-        nombreDocente.setText(listaTutor.get(position).getNombre().toString()+listaTutor.get(position).getApellido());
+        nombreDocente.setText(listaTutor.get(position).getNombre().toString()+" "+listaTutor.get(position).getApellido());
         tipo.setText("Docente");
         escuela.setText("Escuela Profesional de Ingeniería en Industrias Alimentarias");
-        horario.setText(listaTutor.get(position).getFechaInicio().toString());
+        //horario.setText(listaTutor.get(position).getFechaInicio().toString());
+        String horarioTexto = String.valueOf(listaTutor.get(position).getFechaInicio().getDay())+"\n"+
+                String.valueOf((listaTutor.get(position).getFechaInicio().getMonth()+1))+"\n"+
+                listaTutor.get(position).getFechaInicio().getDate()+"\n"+
+                listaTutor.get(position).getFechaInicio().getHours()+":"+listaTutor.get(position).getFechaInicio().getMinutes()+"\n"+
+                (listaTutor.get(position).getFechaInicio().getYear());
+        horario.setText(horarioTexto);
 
         //Falta que se va a mostrar
 
